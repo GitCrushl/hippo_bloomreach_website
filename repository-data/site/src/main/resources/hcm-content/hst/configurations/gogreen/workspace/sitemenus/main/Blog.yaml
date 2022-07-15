@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/Blog:
+  .meta:order-before: About
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: blog
+  hst:repobased: false

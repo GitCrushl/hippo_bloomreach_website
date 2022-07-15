@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/gogreen/hst:workspace/hst:containers/bloglist/main/left:
+      .meta:residual-child-node-category: content
+      jcr:primaryType: hst:containercomponent
+      hippo:identifier: c9024d26-996d-413f-b5bb-d2ffa4d6a74b

@@ -1,0 +1,10 @@
+15.07.2022 14:45:26 WARN  main [RepositoryLock.acquire:134] Existing lock file /Users/christian.malak/webdev_priv/hippo_bloomreach_website/storage/.lock detected. Repository was not shut down properly.
+15.07.2022 14:45:31 WARN  main [ConfigurationContentService.warnForDuplicateOrderBefores:251] Following node(s) reference the same node multiple times in order-before:
+    /hst:gogreen/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/Blog in gogreen/gogreen/gogreen/gogreen-repository-data-site [content: hst/configurations/gogreen/workspace/sitemenus/main/Blog.yaml], 
+    /hst:gogreen/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/HelloWorld in gogreen/gogreen/gogreen/gogreen-repository-data-site [content: hst/configurations/gogreen/workspace/sitemenus/main/HelloWorld.yaml], 
+    /hst:gogreen/hst:configurations/gogreen/hst:workspace/hst:sitemenus/main/Products in gogreen/gogreen/gogreen/gogreen-repository-data-site [content: hst/configurations/gogreen/workspace/sitemenus/main/Products.yaml]
+15.07.2022 14:45:32 WARN  main [AbstractWebFilesArchive.logSizeExceededWarning:54] Skipping file '/Users/christian.malak/webdev_priv/hippo_bloomreach_website/repository-data/webfiles/src/main/resources/site/binaries/content/gallery/mountains.jpg' of 913 KB (935341 bytes) because it exceeds the maximum allowed file length of 256 KB (262144 bytes). If larger files need to be supported, increase '/hippo:configuration/hippo:modules/webfiles/hippo:moduleconfig/@maxFileLengthKb'
+15.07.2022 14:45:33 ERROR main [LocalHippoRepository.start:329] 
+
+	Insecure default administrator credentials are enabled! Change the password!
+

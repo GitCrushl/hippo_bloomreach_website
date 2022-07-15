@@ -1,0 +1,7 @@
+org/example/beans/ContentDocument.class
+org/example/beans/Imageset.class
+org/example/beans/Banner.class
+org/example/beans/Blog.class
+org/example/beans/NewsDocument.class
+org/example/beans/BaseDocument.class
+org/example/beans/HelloWorldTest.class

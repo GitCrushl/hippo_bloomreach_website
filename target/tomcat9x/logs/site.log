@@ -1,0 +1,10 @@
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:bannerdocument from parent bean Banner.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:189] Bean Banner is not enhanced because it doesn't have any missing methods.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:newsdocument from parent bean NewsDocument.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean NewsDocument$Newsdocument$fyTaExzv is created.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:basedocument from parent bean BaseDocument.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:189] Bean BaseDocument is not enhanced because it doesn't have any missing methods.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:contentdocument from parent bean ContentDocument.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean ContentDocument$Contentdocument$p77ztM94 is created.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:imageset from parent bean Imageset.
+15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean Imageset$Imageset$nxUOBAMK is created.

@@ -1,0 +1,5 @@
+15-Jul-2022 14:45:20.999 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+15-Jul-2022 14:45:25.008 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+15-Jul-2022 14:45:26.047 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+15-Jul-2022 14:45:39.975 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+15-Jul-2022 14:45:40.137 INFORMATION [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext

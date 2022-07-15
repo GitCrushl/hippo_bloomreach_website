@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: Hippo Essentials Plugins Dashboard
+Implementation-Version: 14.7.7
+Build-Jdk-Spec: 1.8
+Created-By: Maven WAR Plugin 3.3.1
+Implementation-Vendor: Bloomreach
+

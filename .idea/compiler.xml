@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gogreen-webapp" />
+        <module name="gogreen-essentials" />
+        <module name="gogreen-repository-data-site-development" />
+        <module name="gogreen-components" />
+        <module name="gogreen-repository-data-webfiles" />
+        <module name="gogreen-cms" />
+        <module name="gogreen-repository-data-development" />
+        <module name="gogreen-repository-data-site" />
+        <module name="gogreen-repository-data-application" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/gogreen/hst:pages/homepage-helloworld:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: homepage-helloworld
+        hst:componentclassname: org.example.beans.HelloWorldTest
