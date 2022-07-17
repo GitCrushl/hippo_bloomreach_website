@@ -18,3 +18,47 @@
 15-Jul-2022 14:45:40.806 INFORMATION [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/christian.malak/webdev_priv/hippo_bloomreach_website/target/tomcat9x/webapps/essentials] has finished in [2.336] ms
 15-Jul-2022 14:45:40.814 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 15-Jul-2022 14:45:40.824 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in [21202] milliseconds
+15-Jul-2022 16:58:56.175 INFORMATION [Thread-13] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+15-Jul-2022 16:58:56.178 INFORMATION [Thread-13] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+15-Jul-2022 16:58:56.512 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-6] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.513 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-8] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.514 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.514 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [quartzScheduler_Worker-10] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:568)
+15-Jul-2022 16:58:56.514 WARNUNG [Thread-13] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [pool-7-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2083)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+15-Jul-2022 16:58:56.571 INFORMATION [Thread-13] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+15-Jul-2022 16:58:56.615 INFORMATION [Thread-13] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

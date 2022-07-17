@@ -8,3 +8,188 @@
 15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean ContentDocument$Contentdocument$p77ztM94 is created.
 15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:imageset from parent bean Imageset.
 15.07.2022 14:46:26 INFO  http-nio-8080-exec-2 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean Imageset$Imageset$nxUOBAMK is created.
+15.07.2022 14:51:52 INFO  http-nio-8080-exec-5 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:product from parent bean BaseDocument.
+15.07.2022 14:51:52 INFO  http-nio-8080-exec-5 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean BaseDocument$Product$VI31Cy7f is created.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:bannerdocument from parent bean Banner.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:189] Bean Banner is not enhanced because it doesn't have any missing methods.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:newsdocument from parent bean NewsDocument.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean NewsDocument$Newsdocument$3OsPyHi3 is created.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:basedocument from parent bean BaseDocument.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:189] Bean BaseDocument is not enhanced because it doesn't have any missing methods.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:contentdocument from parent bean ContentDocument.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean ContentDocument$Contentdocument$mNXH29Fm is created.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:imageset from parent bean Imageset.
+15.07.2022 15:38:13 INFO  http-nio-8080-exec-4 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean Imageset$Imageset$Ek3F8zQs is created.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:bannerdocument from parent bean Banner.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:189] Bean Banner is not enhanced because it doesn't have any missing methods.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:newsdocument from parent bean NewsDocument.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean NewsDocument$Newsdocument$baDAU489 is created.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:basedocument from parent bean BaseDocument.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:189] Bean BaseDocument is not enhanced because it doesn't have any missing methods.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:contentdocument from parent bean ContentDocument.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean ContentDocument$Contentdocument$3QYTgNL6 is created.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:imageset from parent bean Imageset.
+15.07.2022 16:16:15 INFO  http-nio-8080-exec-8 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean Imageset$Imageset$unL2GAVm is created.
+15.07.2022 16:37:34 INFO  http-nio-8080-exec-10 [DynamicBeanDefinitionService.generateBeanDefinition:180] Creating bean of document type gogreen:product from parent bean BaseDocument.
+15.07.2022 16:37:34 INFO  http-nio-8080-exec-10 [DynamicBeanDefinitionService.generateBeanDefinition:195] Bean BaseDocument$Product$OAFrlaMm is created.
+15.07.2022 16:58:56 ERROR Thread-13 [ConfigurationServiceImpl.serviceUnregistered:1205] Failed to remove HCM Site for context path: /site
+javax.jcr.RepositoryException: org.onehippo.cms7.services.lock.LockManagerException: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Datenbank wird wahrscheinlich bereits benutzt: null. Mögliche Lösungen: alle Verbindungen schliessen; Server Modus verwenden
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.onehippo.cm.engine.ConfigurationLockManager.lock(ConfigurationLockManager.java:71) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at org.onehippo.cm.engine.ConfigurationServiceImpl.serviceUnregistered(ConfigurationServiceImpl.java:1192) [hippo-repository-engine-14.7.7.jar:14.7.7]
+	at org.onehippo.cms7.services.WhiteboardServiceRegistry.unregister(WhiteboardServiceRegistry.java:141) [hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cms7.services.context.HippoWebappContextRegistry.unregister(HippoWebappContextRegistry.java:50) [hippo-services-14.7.7.jar:14.7.7]
+	at org.hippoecm.hst.site.container.HstContextLoaderListener.contextDestroyed(HstContextLoaderListener.java:69) [hst-core-14.7.7.jar:14.7.7]
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4816) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5477) [catalina.jar:9.0.54]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1412) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1401) [catalina.jar:9.0.54]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_332]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:9.0.54]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_332]
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:986) [catalina.jar:9.0.54]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1412) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1401) [catalina.jar:9.0.54]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_332]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:9.0.54]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) [?:1.8.0_332]
+	at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:986) [catalina.jar:9.0.54]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:497) [catalina.jar:9.0.54]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:9.0.54]
+	at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:979) [catalina.jar:9.0.54]
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257) [catalina.jar:9.0.54]
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:849) [catalina.jar:9.0.54]
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:996) [catalina.jar:9.0.54]
+Caused by: org.onehippo.cms7.services.lock.LockManagerException: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Datenbank wird wahrscheinlich bereits benutzt: null. Mögliche Lösungen: alle Verbindungen schliessen; Server Modus verwenden
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.onehippo.repository.lock.db.DbLockManager.createLock(DbLockManager.java:348) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at org.onehippo.repository.lock.AbstractLockManager.lock(AbstractLockManager.java:84) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_332]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_332]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_332]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_332]
+	at org.onehippo.cms7.services.ProxiedServiceHolder.lambda$new$0(ProxiedServiceHolder.java:68) ~[hippo-services-14.7.7.jar:14.7.7]
+	at com.sun.proxy.$Proxy89.lock(Unknown Source) ~[?:?]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:81) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:47) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cm.engine.ConfigurationLockManager.lock(ConfigurationLockManager.java:65) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	... 27 more
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Datenbank wird wahrscheinlich bereits benutzt: null. Mögliche Lösungen: alle Verbindungen schliessen; Server Modus verwenden
+Database may be already in use: null. Possible solutions: close all other connection(s); use the server mode [90020-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:194) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine$Store.convertIllegalStateException(MVTableEngine.java:206) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:182) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.getPageStore(Database.java:2659) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.open(Database.java:675) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.openDatabase(Database.java:307) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.<init>(Database.java:301) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.openSession(Engine.java:74) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.openSession(Engine.java:192) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSession(Engine.java:166) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSession(Engine.java:29) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1188) ~[commons-pool-1.6.jar:1.6]
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044) ~[commons-dbcp-1.4.jar:1.4]
+	at org.onehippo.repository.lock.db.DbLockManager.createLock(DbLockManager.java:304) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at org.onehippo.repository.lock.AbstractLockManager.lock(AbstractLockManager.java:84) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_332]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_332]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_332]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_332]
+	at org.onehippo.cms7.services.ProxiedServiceHolder.lambda$new$0(ProxiedServiceHolder.java:68) ~[hippo-services-14.7.7.jar:14.7.7]
+	at com.sun.proxy.$Proxy89.lock(Unknown Source) ~[?:?]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:81) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:47) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cm.engine.ConfigurationLockManager.lock(ConfigurationLockManager.java:65) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	... 27 more
+Caused by: java.lang.IllegalStateException: The file is locked: nio:/Users/christian.malak/webdev_priv/hippo_bloomreach_website/storage/datastore/db.mv.db [1.4.200/7]
+	at org.h2.mvstore.DataUtils.newIllegalStateException(DataUtils.java:950) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.FileStore.open(FileStore.java:166) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.getPageStore(Database.java:2659) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.open(Database.java:675) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.openDatabase(Database.java:307) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.<init>(Database.java:301) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.openSession(Engine.java:74) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.openSession(Engine.java:192) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSession(Engine.java:166) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSession(Engine.java:29) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1188) ~[commons-pool-1.6.jar:1.6]
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044) ~[commons-dbcp-1.4.jar:1.4]
+	at org.onehippo.repository.lock.db.DbLockManager.createLock(DbLockManager.java:304) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at org.onehippo.repository.lock.AbstractLockManager.lock(AbstractLockManager.java:84) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_332]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_332]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_332]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_332]
+	at org.onehippo.cms7.services.ProxiedServiceHolder.lambda$new$0(ProxiedServiceHolder.java:68) ~[hippo-services-14.7.7.jar:14.7.7]
+	at com.sun.proxy.$Proxy89.lock(Unknown Source) ~[?:?]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:81) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:47) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cm.engine.ConfigurationLockManager.lock(ConfigurationLockManager.java:65) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	... 27 more
+Caused by: java.nio.channels.OverlappingFileLockException
+	at sun.nio.ch.SharedFileLockTable.checkList(FileLockTable.java:255) ~[?:1.8.0_332]
+	at sun.nio.ch.SharedFileLockTable.add(FileLockTable.java:152) ~[?:1.8.0_332]
+	at sun.nio.ch.FileChannelImpl.tryLock(FileChannelImpl.java:1107) ~[?:1.8.0_332]
+	at org.h2.store.fs.FileNio.tryLock(FilePathNio.java:121) ~[h2-1.4.200.jar:1.4.200]
+	at java.nio.channels.FileChannel.tryLock(FileChannel.java:1155) ~[?:1.8.0_332]
+	at org.h2.mvstore.FileStore.open(FileStore.java:163) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.MVStore.<init>(MVStore.java:381) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:3579) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine$Store.open(MVTableEngine.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTableEngine.init(MVTableEngine.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.getPageStore(Database.java:2659) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.open(Database.java:675) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.openDatabase(Database.java:307) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Database.<init>(Database.java:301) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.openSession(Engine.java:74) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.openSession(Engine.java:192) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSession(Engine.java:166) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Engine.createSession(Engine.java:29) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.Driver.connect(Driver.java:69) ~[h2-1.4.200.jar:1.4.200]
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:582) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.pool.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:1188) ~[commons-pool-1.6.jar:1.6]
+	at org.apache.commons.dbcp.PoolingDataSource.getConnection(PoolingDataSource.java:106) ~[commons-dbcp-1.4.jar:1.4]
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044) ~[commons-dbcp-1.4.jar:1.4]
+	at org.onehippo.repository.lock.db.DbLockManager.createLock(DbLockManager.java:304) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at org.onehippo.repository.lock.AbstractLockManager.lock(AbstractLockManager.java:84) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_332]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_332]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_332]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_332]
+	at org.onehippo.cms7.services.ProxiedServiceHolder.lambda$new$0(ProxiedServiceHolder.java:68) ~[hippo-services-14.7.7.jar:14.7.7]
+	at com.sun.proxy.$Proxy89.lock(Unknown Source) ~[?:?]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:81) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cms7.services.lock.LockManagerUtils.waitForLock(LockManagerUtils.java:47) ~[hippo-services-14.7.7.jar:14.7.7]
+	at org.onehippo.cm.engine.ConfigurationLockManager.lock(ConfigurationLockManager.java:65) ~[hippo-repository-engine-14.7.7.jar:14.7.7]
+	... 27 more

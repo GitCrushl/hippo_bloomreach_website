@@ -1,0 +1,49 @@
+definitions:
+  config:
+    /hippo:namespaces/gogreen/Blog:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['editor:editable', 'mix:referenceable']
+      jcr:uuid: 89efae0b-2d46-47fc-a65d-e79c50ea5f92
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: b504bb72-c981-450f-8252-839f996af31b
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 32cd92e4-6f44-4fe8-9ead-dcaabbcdae46
+          hipposysedit:node: true
+          hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+      /hipposysedit:prototypes:
+        jcr:primaryType: hipposysedit:prototypeset
+        /hipposysedit:prototype:
+          jcr:primaryType: nt:unstructured
+          hippostd:holder: holder
+          hippostd:state: draft
+          hippostdpubwf:createdBy: ''
+          hippostdpubwf:lastModifiedBy: ''
+          hippotranslation:id: document-type-locale-id
+          hippotranslation:locale: document-type-locale
+      /editor:templates:
+        jcr:primaryType: editor:templateset
+        /_default_:
+          jcr:primaryType: frontend:plugincluster
+          frontend:properties: [mode]
+          frontend:references: [wicket.model, model.compareTo, engine, validator.id]
+          frontend:services: [wicket.id, validator.id]
+          /root:
+            jcr:primaryType: frontend:plugin
+            extension.left: ${cluster.id}.left
+            extension.right: ${cluster.id}.right
+            plugin.class: org.hippoecm.frontend.editor.layout.TwoColumn
+            wicket.extensions: [extension.left, extension.right]
+          /left:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.left.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.left
+          /right:
+            jcr:primaryType: frontend:plugin
+            item: ${cluster.id}.right.item
+            plugin.class: org.hippoecm.frontend.service.render.ListViewPlugin
+            wicket.id: ${cluster.id}.right

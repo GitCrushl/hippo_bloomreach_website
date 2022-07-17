@@ -16,5 +16,7 @@ public class HelloWorldTest extends CommonComponent {
         String[] listOutput = new String[] {"One", "Two", "Three", "Four", "Five"};
         request.setAttribute("helloTest", output);
         request.setAttribute("helloTestList", listOutput);
+
+
     }
 }

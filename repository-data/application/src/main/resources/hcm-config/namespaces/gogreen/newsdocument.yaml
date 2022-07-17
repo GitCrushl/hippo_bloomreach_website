@@ -88,6 +88,85 @@ definitions:
             hipposysedit:path: gogreen:relatednews
             hipposysedit:primary: false
             hipposysedit:type: hippo:mirror
+        /hipposysedit:nodetype[2]:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['mix:referenceable']
+          jcr:uuid: 2f880c92-447b-496f-b301-d50a3f9bfb07
+          hipposysedit:node: true
+          hipposysedit:supertype: ['gogreen:basedocument', 'hippostd:relaxed', 'hippotranslation:translated']
+          /title:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:title
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /introduction:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:introduction
+            hipposysedit:primary: false
+            hipposysedit:type: Text
+          /content:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:content
+            hipposysedit:primary: false
+            hipposysedit:type: hippostd:html
+          /date:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:date
+            hipposysedit:primary: false
+            hipposysedit:type: Date
+            hipposysedit:validators: [required]
+          /image:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:image
+            hipposysedit:primary: false
+            hipposysedit:type: hippogallerypicker:imagelink
+          /author:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:author
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /source:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:source
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /location:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: false
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:location
+            hipposysedit:primary: false
+            hipposysedit:type: String
+          /relatednews:
+            jcr:primaryType: hipposysedit:field
+            hipposysedit:mandatory: false
+            hipposysedit:multiple: true
+            hipposysedit:ordered: false
+            hipposysedit:path: gogreen:relatednews
+            hipposysedit:primary: false
+            hipposysedit:type: hippo:mirror
       /hipposysedit:prototypes:
         jcr:primaryType: hipposysedit:prototypeset
         /hipposysedit:prototype:

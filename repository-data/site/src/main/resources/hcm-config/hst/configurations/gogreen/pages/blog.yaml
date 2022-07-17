@@ -7,7 +7,7 @@ definitions:
         jcr:primaryType: hst:component
         /left:
           jcr:primaryType: hst:containercomponentreference
-          hst:referencecomponent: newslist/main/left
+          hst:referencecomponent: bloglist/main/left
         /right:
           jcr:primaryType: hst:component
           hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsFacetsComponent

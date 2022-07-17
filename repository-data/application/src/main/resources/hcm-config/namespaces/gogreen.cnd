@@ -11,6 +11,9 @@
 [gogreen:bannerdocument] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
+[gogreen:blogpost] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
+  orderable
+
 [gogreen:contentdocument] > gogreen:basedocument, hippostd:relaxed, hippotranslation:translated
   orderable
 
